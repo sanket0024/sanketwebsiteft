@@ -9,7 +9,7 @@ const imageClasses = "mt-3 mb-3 img-fluid img-thumbnail ml-2";
 class Demographic extends Component {
     render() {
         return (
-            <div>
+            <div className="text-light">
                 <section className="mt-5 mb-5">
                     <HeadLine>Demographic</HeadLine>
                 </section>
@@ -41,16 +41,29 @@ class Demographic extends Component {
                             </div>
                         </div>
                         <div className="col">
+                            <div className="text icons">
+
+                            </div>
                             <div className="row mt-4">
                                 <div className={fieldClasses}>
-                                    <a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU.pdf" download>Download Resume</a>
+                                    <a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU.pdf" download>
+                                        <i className="fas fa-arrow-alt-circle-down"></i> Resume
+                                    </a>
                                 </div>
                             </div>
                             <div className="row">
-                                <div className={fieldClasses}><a href="https://github.com/sanket0024">Github</a></div>
+                                <div className="col-5 icons">
+                                    <a href="https://github.com/sanket0024">
+                                        <i className="fab fa-github-square"></i>
+                                    </a>
+                                </div>
                             </div>
                             <div className="row">
-                                <div className={fieldClasses}><a href="https://www.linkedin.com/in/sanketmathur92/">LinkedIn</a></div>
+                                <div className="col-5 icons">
+                                    <a href="https://www.linkedin.com/in/sanketmathur92/">
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                             <div className="mb-5"></div>
                         </div>

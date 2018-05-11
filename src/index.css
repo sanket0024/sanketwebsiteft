@@ -5,8 +5,8 @@ body {
 }
 
 .backgroundcolor {
-    background: linear-gradient(black 0%, lightseagreen 90%),
-            linear-gradient(to right, lightgoldenrodyellow 0%, darkolivegreen 90%);
+    background: linear-gradient(darkslategrey 0%, black 40%),
+    linear-gradient(to right, darkslategrey 0%,  lightslategrey 100%);
     background-blend-mode: screen, difference, lighten;
 }
 

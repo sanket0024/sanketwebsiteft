@@ -9,7 +9,7 @@ class Project extends Component {
                 <section className="mt-5 mb-5">
                     <HeadLine>Projects</HeadLine>
                 </section>
-                <section className="table-responsive table-hover">
+                <section className="table-responsive table-hover text-light">
                     <table className="table">
                         <thead>
                         <tr>
@@ -46,7 +46,7 @@ class Project extends Component {
                                 <br/>
                                 Github - <a href="https://github.com/sanket0024/stickies">Sticky Notes</a>
                                 <br/>
-                                Demo - <a href="https://limitless-forest-11165.herokuapp.com/">Sticky Notes</a>
+                                Live - <a href="https://limitless-forest-11165.herokuapp.com/">Sticky Notes</a>
                             </td>
                         </tr>
                         <tr>
@@ -64,9 +64,9 @@ class Project extends Component {
                             <td>Personal</td>
                             <td>Designed a website using React JS, HTML, CSS and BootStrap 4 detailed with my personal information
                                 <br/>
-                                Github - <a href="">Sanket Mathur</a>
+                                Github - <a href="https://github.com/sanket0024/sanketwebsite">Sanket Mathur</a>
                                 <br/>
-                                Link - <a href="">this pointer</a>
+                                Live - <a href="">this pointer</a>
                             </td>
                         </tr>
                         </tbody>

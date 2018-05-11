@@ -10,7 +10,7 @@ const valueClass = "ml-2 col-auto";
 class University extends Component {
     render() {
         return (
-            <div>
+            <div className="text-light">
                 <section className="mt-5 mb-5">
                     <HeadLine>Education</HeadLine>
                 </section>
@@ -42,7 +42,7 @@ class University extends Component {
                             <div className="mb-5"></div>
                         </div>
                         <div className="col-lg">
-                            <img id="unilogo" className={logoClasses} alt="neu" src="neu.png"></img>
+                            <img id="unilogo" className={logoClasses} alt="neu" src="neu.jpg"></img>
                             <div className="mt-3"></div>
                             <div id="text" className={rowClasses}>
                                 <div className={typeClasses}>College</div>

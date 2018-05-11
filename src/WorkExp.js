@@ -9,13 +9,13 @@ const valuesClasses = "ml-3 col-md-auto font-italic";
 class WorkExp extends Component {
     render() {
         return (
-            <div>
+            <div className="text-light">
                 <section className="mt-5 mb-5">
                     <HeadLine>Work Experience</HeadLine>
                 </section>
                 <section>
                     <div id="text" className="container row">
-                        <img id="companylogo" className={logoClasses} alt="appirio" src="Appirio.png"></img>
+                        <img id="companylogo" className={logoClasses} alt="appirio" src="Appirio.jpg"></img>
                         <div className="col-flex ml-3">
                             <div className="row mt-4">
                                 <div className={fieldClasses}>Name</div>
