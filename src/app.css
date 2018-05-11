@@ -1,0 +1,28 @@
+#unilogo {
+    height: 40%;
+    width: 30%;
+}
+
+#companylogo {
+    height: 10%;
+    width: 15%;
+}
+
+#myimage {
+    height: 80%;
+    width: 80%;
+}
+
+#text {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#heading {
+    font-family: OCR A Std, monospace;
+}
+
+#demographic {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
