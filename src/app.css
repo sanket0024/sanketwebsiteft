@@ -4,8 +4,9 @@
 }
 
 #companylogo {
-    height: 10%;
-    width: 15%;
+    height: 30%;
+    width: 30%;
+    background-color: white;
 }
 
 #myimage {

@@ -14,24 +14,24 @@ class WorkExp extends Component {
                     <HeadLine>Work Experience</HeadLine>
                 </section>
                 <section>
-                    <div id="text" className="container row">
-                        <img id="companylogo" className={logoClasses} alt="appirio" src="Appirio.jpg"></img>
-                        <div className="col-flex ml-3">
+                    <div id="text" className="ml-1 row">
+                        <div className="col-lg">
+                            <img id="companylogo" className={logoClasses} alt="appirio" src="Appirio.jpg"></img>
                             <div className="row mt-4">
                                 <div className={fieldClasses}>Name</div>
                                 <div className={valuesClasses}>Appirio - A Wipro Company</div>
                             </div>
                             <div className="row">
                                 <div className={fieldClasses}>Location</div>
-                                <div className={valuesClasses}>Jaipur, India</div>
+                                <div className={valuesClasses}>Jaipur, RJ, India</div>
                             </div>
                             <div className="row">
                                 <div className={fieldClasses}>Role</div>
-                                <div className={valuesClasses}>Salesforce and Workday Consultant</div>
+                                <div className={valuesClasses}>Technical Consultant (July 2014 - March 2016)</div>
                             </div>
                             <div className="row">
                                 <div className={fieldClasses}></div>
-                                <div className={valuesClasses}>Solution Developer</div>
+                                <div className={valuesClasses}>Software Developer (April 2016 - August 2017)</div>
                             </div>
                             <div className="row">
                                 <div className={fieldClasses}>From</div>
@@ -47,6 +47,43 @@ class WorkExp extends Component {
                             </div>
                             <div className="mb-5"></div>
                         </div>
+                        <div className="col-lg ml-3">
+                            <img id="companylogo" className={logoClasses} alt="appirio" src="Kuebix.png"></img>
+                            <div className="row mt-4">
+                                <div className={fieldClasses}>Name</div>
+                                <div className={valuesClasses}>Kuebix</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}>Location</div>
+                                <div className={valuesClasses}>Boston, MA, USA</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}>Role</div>
+                                <div className={valuesClasses}>Software Developer Intern</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}></div>
+                                <div className={valuesClasses}><br/></div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}>From</div>
+                                <div className={valuesClasses}>June 2018</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}>To</div>
+                                <div className={valuesClasses}>(Present) December 2018</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}>Technologies</div>
+                                <div className={valuesClasses}>Angular 6 and Salesforce (Apex classes</div>
+                            </div>
+                            <div className="row">
+                                <div className={fieldClasses}></div>
+                                <div className={valuesClasses}>triggers and configuraiton)</div>
+                            </div>
+                            <div className="mb-5"></div>
+                        </div>
+                        <div className="mb-5"></div>
                     </div>
                 </section>
             </div>

@@ -14,15 +14,15 @@ class Skills extends Component {
                         <tbody>
                         <tr>
                             <td>Programming Languages</td>
-                            <td>Java, Spring Boot, SQL, Python, Flask, XSLT, React js, HTML, CSS</td>
+                            <td>Java, Spring Boot, Angular 6, React js, SQL, Python Flask, HTML, CSS, Bootstrap, XSLT</td>
                         </tr>
                         <tr>
                             <td>Applications/Database systems</td>
-                            <td>JIRA, GitHub, MySQL, SQLite, MongoDB</td>
+                            <td>MySQL, SQLite, MongoDB, Salesforce (CRM - PaaS) and Workday (HCM and Financial - SaaS)</td>
                         </tr>
                         <tr>
-                            <td>Saas Tools</td>
-                            <td>Salesforce and Workday</td>
+                            <td>Other Tools</td>
+                            <td>JIRA, Git, GitHub, BitBucket, AWS EC2, AWS RDS, AWS S3</td>
                         </tr>
                         </tbody>
                     </table>
