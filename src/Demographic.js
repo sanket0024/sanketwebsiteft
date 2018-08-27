@@ -11,7 +11,7 @@ class Demographic extends Component {
         return (
             <div className="text-light">
                 <section className="mt-5 mb-5">
-                    <HeadLine>Demographic</HeadLine>
+                    <HeadLine>Demographic and Contact</HeadLine>
                 </section>
                 <section>
                     <div id="text" className="container row">
@@ -32,6 +32,10 @@ class Demographic extends Component {
                                 <div className={valuesClasses}>sanket0024@gmail.com</div>
                             </div>
                             <div className="row">
+                                <div className={fieldClasses}>Mobile</div>
+                                <div className={valuesClasses}>978-875-5854</div>
+                            </div>
+                            <div className="row">
                                 <div className={fieldClasses}>Date of Birth</div>
                                 <div className={valuesClasses}>01/24/1992</div>
                             </div>
@@ -41,12 +45,10 @@ class Demographic extends Component {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="text icons">
-
-                            </div>
+                            <div className="text icons"></div>
                             <div className="row mt-4">
                                 <div className={fieldClasses}>
-                                    <a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU.pdf" download target="_blank">
+                                    <a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU_FT.pdf" download target="_blank">
                                         <i className="fas fa-arrow-alt-circle-down"></i> Resume
                                     </a>
                                 </div>
