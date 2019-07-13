@@ -48,21 +48,21 @@ class Demographic extends Component {
 							<div className="text icons"></div>
 							<div className="row mt-4">
 								<div className={fieldClasses}>
-									<a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU_FT.pdf" download target="_blank">
+									<a href="https://s3.amazonaws.com/resumesanket24/Sanket_Resume_NEU_FT.pdf" download >
 										<i className="fas fa-arrow-alt-circle-down"></i> Resume
                                     </a>
 								</div>
 							</div>
 							<div className="row">
 								<div className={fieldClasses}>
-									<a href="https://github.com/sanket0024" target="_blank">
+									<a href="https://github.com/sanket0024" >
 										<i className="fab fa-github-square"></i> Github
                                     </a>
 								</div>
 							</div>
 							<div className="row">
 								<div className={fieldClasses}>
-									<a href="https://www.linkedin.com/in/sanketmathur92/" target="_blank">
+									<a href="https://www.linkedin.com/in/sanketmathur92/" >
 										<i className="fab fa-linkedin"></i> LinkedIn
                                     </a>
 								</div>
