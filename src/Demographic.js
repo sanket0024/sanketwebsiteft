@@ -41,7 +41,7 @@ class Demographic extends Component {
 							</div>
 							<div className="row">
 								<div className={fieldClasses}>Available to work</div>
-								<div className={valuesClasses}>July 01, 2019</div>
+								<div className={valuesClasses}>January 01, 2020</div>
 							</div>
 						</div>
 						<div className="col-lg-4">
